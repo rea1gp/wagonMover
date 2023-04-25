@@ -1,6 +1,6 @@
 ## WAGON MOVER
 
-Схема жизненного пути вагонов
+Производственные стадии вагонов
 
 ![schema](https://i.ibb.co/GV1ptM6/wagon-schema.png)
 
@@ -21,7 +21,7 @@ docker run --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PA
 Загружаем выбранным грузом вагон (в бд уже есть 10 вагонов, готовых к запуску)   
 Статус меняется на "NEW"  
 ![new_wagon](https://i.ibb.co/bbbdnsB/new-wagon.png)  
-Получаем список вагонов, готовых к загрузке  
+Получаем список вагонов, готовых к отправлению на станцию
 ![wagon_for_run](https://i.ibb.co/5K2Lntc/wagon-run.png)  
 Запускаем вагоны на лайн станции  
 Указываем номер лайна и в теле id вагонов с индексом их поступления на лайн  
